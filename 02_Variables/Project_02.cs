@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _02_Variables
 {
-    internal class Project_01
+    internal class Project_02
     {
         static void Main(string[] args)
         {
