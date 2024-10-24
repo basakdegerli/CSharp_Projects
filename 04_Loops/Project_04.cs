@@ -30,17 +30,17 @@ namespace _04_Loops
             //    Console.WriteLine(i);
             //}
 
-            //Console.WriteLine("Lütfen ekrana yazolmasını istediğiniz adedei giriniz: ");
+            //Console.WriteLine("Lütfen ekrana yazılmasını istediğiniz adedi giriniz: ");
             //int finishValue = int.Parse(Console.ReadLine());
 
             //for(int i = 0; i < finishValue; i++)
             //{
-            //    Console.WriteLine("Yaşasın Cumhuriyet");
+            //    Console.WriteLine("Yaşasın Cumhuriyet!");
             //}
 
             #endregion
 
-            #region For Döngüsü ile Karar Yapilari
+            #region For Döngüsü ile Karar Yapıları
 
             //for (int i = 0; i <= 100; i++)
             //{
