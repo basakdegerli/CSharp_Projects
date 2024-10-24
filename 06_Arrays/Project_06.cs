@@ -34,7 +34,7 @@ namespace _06_Arrays
             //int[] numbers = new int[10];
 
             //numbers[0] = 50;
-            //numbers[1] = 40;
+            //numbers[1] = 48;
             //numbers[2] = 698;
             //numbers[3] = 24;
             //numbers[7] = 748;
