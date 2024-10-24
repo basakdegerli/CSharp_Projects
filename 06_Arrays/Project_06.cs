@@ -56,7 +56,7 @@ namespace _06_Arrays
             //    Console.WriteLine(colors[i]);
             //}
 
-            //int[] numbers = { 4, 85, 96, 74, 125, 638, 488, 7456, 2365, 1122 };
+            //int[] numbers = { 4, 85, 96, 74, 125, 635, 488, 520, 7456, 2365, 1120 };
 
             //for (int i = 0; i < numbers.Length; i++)
             //{
