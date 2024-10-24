@@ -74,7 +74,7 @@ namespace _06_Arrays
             //}
 
 
-            //int[] my_array = { 47, 85, 96, 87, 32, 152, 658, 140 };
+            //int[] my_array = { 5, 125, 47, 85, 95, 41, 25, 635, 789, 86, 100 };
 
             //int maxnumber = my_array[0];
 
@@ -88,40 +88,38 @@ namespace _06_Arrays
 
             //Console.WriteLine(maxnumber);
 
-            //string[] persons = { "ali", "ahmet", "ayşe", "birgül", "cem", "deniz" };
+            //string[] persons = { "ali", "ahmet", "ayşe", "başak", "cem", "deniz" };
             //Console.WriteLine(persons.Length);
 
-            //int[] numbers = { 1, 2, 45, 82, 86, 10, 35 };
+            //int[] numbers = {45, 85, 52, 41, 86, 10, 22, 35, 120, 78 };
 
-            //Array.Sort(numbers);  Küçükten Büyüğe sıralıyor
-
+            // Dizideki sayıları küçükten -> büyüğe sıralama  
+            //Array.Sort(numbers); 
             //for (int i = 0; i < numbers.Length; i++) { 
             //    Console.WriteLine(numbers[i]);
             //}
+            
+            //int[] numbers = {45, 85, 52, 41, 86, 10, 22, 35, 120, 78 };
 
-            //int[] numbers = { 1, 2, 45, 82, 86, 10, 35 };
-            //Array.Reverse(numbers);  diziyi tersten tekrar yaızyor
-
+            // Dizideki sayıları tersten sıralama 
+            //Array.Reverse(numbers);  
             //for (int i = 0; i < numbers.Length; i++)
             //{
             //    Console.WriteLine(numbers[i]);
             //}
 
-
             #endregion
 
             #region Dizi Metodları
 
-            //string[] customers = { "ali", "buse", "ayşegül", "merve", "çınar", "kaya" };
-            //int index = Array.IndexOf(customers, "merve"); index numarası
+            //string[] customers = { "ali", "başak", "ayşegül", "merve", "çınar", "kaya" };
 
+            //  Dizi içerisinde aranan değerin index sırasını döndürme   
+            //int index = Array.IndexOf(customers, "başak"); 
             //Console.WriteLine(index);
 
-            //int[] numbers = { 45, 83, 96, 63, 74, 10, 25, 22, 36 };
-            //Console.WriteLine("Dizinin en büyük elemanı: " + numbers.Max() 
-            //    + "Dizinin en küçük elemanı: " +  numbers.Min());
-
-
+            //int[] numbers = { 45, 85, 96, 63, 74, 10, 25, 22, 36 };
+            //Console.WriteLine("Dizinin en büyük elemanı: " + numbers.Max() + "Dizinin en küçük elemanı: " +  numbers.Min());
 
             #endregion
 
@@ -140,7 +138,7 @@ namespace _06_Arrays
 
             //for (int i = 0; i < cities.Length; i++)
             //{
-            //    Console.WriteLine(cities[i]);
+            //    Console.WriteLine((i+1) + "- "+ cities[i]);
             //}
 
             //int[] numbers = { 10, 20, 30, 40, 50 };
@@ -151,10 +149,10 @@ namespace _06_Arrays
             //    sum += numbers[i];
             //}
 
-            //Console.WriteLine(sum);
+            //Console.WriteLine("Dizideki sayıların toplamı: " + sum);
 
-            //int[] numbers = { 21, 42, 33, 54, 55, 66, 897, 748, 39, 220 };
-            //Console.WriteLine("Çift Sayılar");
+            //int[] numbers = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 };
+            //Console.WriteLine("----Çift Sayılar----");
 
             //for (int i = 0; i < numbers.Length; i++)
             //{
@@ -163,8 +161,10 @@ namespace _06_Arrays
             //        Console.WriteLine(numbers[i]);
             //    }
             //}
+                
             //Console.WriteLine();
-            //Console.WriteLine("Tek Sayılar");
+            
+            //Console.WriteLine("----Tek Sayılar----");
 
             //for (int i = 0; i < numbers.Length; i++)
             //{
@@ -173,7 +173,6 @@ namespace _06_Arrays
             //        Console.WriteLine(numbers[i]);
             //    }
             //}
-
 
             #endregion
 
