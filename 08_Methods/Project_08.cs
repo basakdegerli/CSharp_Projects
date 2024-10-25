@@ -23,20 +23,16 @@ namespace _08_Methods
             //}
 
             //CustomerList();
-            //CustomerList();
-            //CustomerList();
-            //CustomerList();
-
+  
             //void Sum()
             //{
-            //    int x = 1, y = 2;
+            //    int x = 1
+            //    int y = 2;
             //    int z = x + y;
             //    Console.WriteLine(z);
             //}
 
             //Sum();
-
-
 
             #endregion
 
@@ -70,6 +66,7 @@ namespace _08_Methods
             //}
 
             //Sum(4, 5, 6);
+                
             #endregion
 
             #region Geriye Değer Döndüren Metotlar
@@ -98,12 +95,12 @@ namespace _08_Methods
             //string CountryCard(string countryName, string capital, string flagColor)
             //{
 
-            //    string cardInfo = "Ülke: "+ countryName + " - Başkent: "
-            //        + capital + " - Bayrak Rengi: " + flagColor;
+            //    string cardInfo = "Ülke: "+ countryName + " - Başkent: " + capital + " - Bayrak Rengi: " + flagColor;
 
             //    return cardInfo;
             //}
 
+            // Bilgileri kullanıcıdan alma
             //string x, y, z;
 
             //Console.Write("Ülke adını giriniz: ");
@@ -143,11 +140,11 @@ namespace _08_Methods
 
             //    if (result >= 50)
             //    {
-            //        return student + " isimli öğrenci sınavı geçti. " + "Ortalama: " + result;
+            //        return student + " sınavı geçti. " + "Ortalama: " + result;
             //    }
             //    else
             //    {
-            //        return student + " isimli öğrenci sınavı geçemedi. Ortalama: " + result;
+            //        return student + " sınavı geçemedi. " + "Ortalama: " + result;
             //    }
             //}
 
