@@ -32,7 +32,6 @@ namespace _09_DataBaseProject
 
             //connection.Close();
 
-
             foreach (DataRow row in dt.Rows)
             {
                 foreach (var item in row.ItemArray)
