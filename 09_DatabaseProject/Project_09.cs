@@ -23,9 +23,9 @@ namespace _09_DataBaseProject
             tableNumber = Console.ReadLine();
             Console.WriteLine("-------------------------------------------------------------");
 
-            SqlConnection connection = new SqlConnection("Data Source=DESKTOP-TF571CU; Initial Catalog=KampDB; Integrated Security=True;");
+            SqlConnection connection = new SqlConnection("Data Source=DESKTOP-TF571CU\\SQLEXPRESS; Initial Catalog=KampDB; Integrated Security=True;");
             connection.Open();
-            SqlCommand command = new SqlCommand("select * from TblCategory", connection);
+            SqlCommand command = new SqlCommand("Select * From TblCategory", connection);
             SqlDataAdapter adapter = new SqlDataAdapter(command);
             DataTable dt = new DataTable();
             adapter.Fill(dt);
@@ -41,7 +41,6 @@ namespace _09_DataBaseProject
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine();
 
             Console.Read();
         }
